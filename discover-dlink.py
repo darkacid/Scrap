@@ -83,8 +83,6 @@ def genRange(cidr_network):
     ipList = network.hosts()
     
     print("Found",network.num_addresses,"addresses")
-    #sendRequest("10.100.100.7")
-    #return
     parsed_list = []
     for address in ipList:
         addr=str(address)           
